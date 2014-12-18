@@ -1,0 +1,468 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" > <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" > <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" > <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9 ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" > <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" > <!--<![endif]-->
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://www.lbdsociety.com/sites/default/files/lbds_favicon_3.ico" type="image/vnd.microsoft.icon" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<!--[if lt IE 7]>
+    <script type="text/javascript">document.execCommand("BackgroundImageCache", false, true);
+	var BlankImgPath = "/sites/all/modules/contrib/pngbehave";
+    </script>
+    <style type="text/css">#header-site-info img, #main-wrapper, .page-inner, #page-top ul.global-links li a, #footer-inner .menu ul.links li a, #author-lbds img, #block-block-2, span.l, span.tagline, #block-views-how_can_i-block_1 .inner h2.title, #block-views-tweets-block, #footer-message-text-inner img, #block-views-tweets-block .inner .content .view-tweets .view-header p a, #block-views-rotating_promo-block_1 .promo-wrapper-left, #block-views-rotating_promo-block_1 .promo-wrapper-right, #block-views-rotating_promo-block_1 .promo-wrapper-top, #block-views-rotating_promo-block_1 .promo-wrapper-bottom, .view-rotating-promo .view-content ul li img, .view-rotating-promo .view-content ul li img, #block-views-you_might_like_to-block_1 .inner h2.title, #block-views-how_can_i-block_1 .view-content ul, #block-views-how_can_i-block_1 .view-content .item-list, #block-views-how_can_i-block_1 .view-content .item-list, #footer-inner .menu-top-footer ul.links li a, .homepage-bucket .view .view-content ul li a:hover, #main-bottom, #main-bottom a img, #main, #primary-menu li.active-trail a, #primary-menu #block-nice_menus-1 li, #primary-menu #block-nice_menus-1 li a:hover, input.form-submit, .blog-view ul li .blog-date { behavior: url(/sites/all/modules/contrib/pngbehave/iepngfix.htc)} </style>
+    <script type="text/javascript" src="/sites/all/modules/contrib/pngbehave/iepngfix_tilebg.js"></script>
+<![endif]-->
+  <title>Little Black Dress Society | Join the Fight to End Abuse</title>
+  <style type="text/css" media="all">@import url("http://www.lbdsociety.com/modules/system/system.base.css?mwkurg");
+@import url("http://www.lbdsociety.com/modules/system/system.menus.css?mwkurg");
+@import url("http://www.lbdsociety.com/modules/system/system.messages.css?mwkurg");
+@import url("http://www.lbdsociety.com/modules/system/system.theme.css?mwkurg");</style>
+<style type="text/css" media="all">@import url("http://www.lbdsociety.com/modules/book/book.css?mwkurg");
+@import url("http://www.lbdsociety.com/modules/comment/comment.css?mwkurg");
+@import url("http://www.lbdsociety.com/sites/all/modules/contrib/date/date_api/date.css?mwkurg");
+@import url("http://www.lbdsociety.com/sites/all/modules/contrib/date/date_popup/themes/datepicker.1.7.css?mwkurg");
+@import url("http://www.lbdsociety.com/modules/field/theme/field.css?mwkurg");
+@import url("http://www.lbdsociety.com/modules/node/node.css?mwkurg");
+@import url("http://www.lbdsociety.com/modules/user/user.css?mwkurg");
+@import url("http://www.lbdsociety.com/modules/forum/forum.css?mwkurg");
+@import url("http://www.lbdsociety.com/sites/all/modules/contrib/views/css/views.css?mwkurg");</style>
+<style type="text/css" media="all">@import url("http://www.lbdsociety.com/sites/all/modules/initiation_fee/initiation_fee.css?mwkurg");
+@import url("http://www.lbdsociety.com/sites/all/modules/contrib/ckeditor/ckeditor.css?mwkurg");
+@import url("http://www.lbdsociety.com/sites/all/modules/contrib/ctools/css/ctools.css?mwkurg");
+@import url("http://www.lbdsociety.com/sites/all/modules/contrib/facebookshare/facebookshare.css?mwkurg");
+@import url("http://www.lbdsociety.com/sites/all/modules/contrib/nice_menus/nice_menus.css?mwkurg");
+@import url("http://www.lbdsociety.com/sites/all/modules/contrib/nice_menus/nice_menus_default.css?mwkurg");
+@import url("http://www.lbdsociety.com/sites/all/modules/contrib/panels/css/panels.css?mwkurg");
+@import url("http://www.lbdsociety.com/sites/all/modules/contrib/compact_forms/compact_forms.css?mwkurg");</style>
+<style type="text/css" media="all">@import url("http://www.lbdsociety.com/sites/all/themes/contrib/fusion/fusion_core/css/fusion-style.css?mwkurg");
+@import url("http://www.lbdsociety.com/sites/all/themes/contrib/fusion/fusion_core/css/fusion-typography.css?mwkurg");
+@import url("http://www.lbdsociety.com/sites/all/themes/contrib/fusion/fusion_core/skins/core/fusion-core-skins.css?mwkurg");
+@import url("http://www.lbdsociety.com/sites/all/themes/custom/lbds/css/lbds-style.css?mwkurg");
+@import url("http://www.lbdsociety.com/sites/all/themes/custom/lbds/css/core-overrides.css?mwkurg");
+@import url("http://www.lbdsociety.com/sites/all/themes/custom/lbds/css/custom.css?mwkurg");
+@import url("http://www.lbdsociety.com/sites/all/themes/custom/lbds/css/nm-overrides.css?mwkurg");
+@import url("http://www.lbdsociety.com/sites/all/themes/custom/lbds/css/custom-fck.css?mwkurg");
+@import url("http://www.lbdsociety.com/sites/all/themes/custom/lbds/css/z-index.css?mwkurg");
+@import url("http://www.lbdsociety.com/sites/all/themes/custom/lbds/css/member_profiles.css?mwkurg");</style>
+<style type="text/css" media="all">@import url("http://www.lbdsociety.com/sites/all/themes/contrib/fusion/fusion_core/css/grid16-960.css?mwkurg");
+@import url("http://www.lbdsociety.com/sites/all/themes/custom/lbds/css/grid16-960.css?mwkurg");</style>
+    <script type="text/javascript" src="http://www.lbdsociety.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://www.lbdsociety.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://www.lbdsociety.com/misc/drupal.js?mwkurg"></script>
+<script type="text/javascript" src="http://www.lbdsociety.com/sites/all/themes/custom/lbds/js/general.js?mwkurg"></script>
+<script type="text/javascript" src="http://www.lbdsociety.com/sites/all/themes/custom/lbds/js/jquery.cycle.all.min.js?mwkurg"></script>
+<script type="text/javascript" src="http://www.lbdsociety.com/sites/all/themes/custom/lbds/js/jquery.defaultText.js?mwkurg"></script>
+<script type="text/javascript" src="http://www.lbdsociety.com/sites/all/themes/custom/lbds/js/jquery.browser.min.js?mwkurg"></script>
+<script type="text/javascript" src="http://www.lbdsociety.com/sites/all/modules/contrib/nice_menus/superfish/js/superfish.js?mwkurg"></script>
+<script type="text/javascript" src="http://www.lbdsociety.com/sites/all/modules/contrib/nice_menus/superfish/js/jquery.bgiframe.min.js?mwkurg"></script>
+<script type="text/javascript" src="http://www.lbdsociety.com/sites/all/modules/contrib/nice_menus/superfish/js/jquery.hoverIntent.minified.js?mwkurg"></script>
+<script type="text/javascript" src="http://www.lbdsociety.com/sites/all/modules/contrib/nice_menus/nice_menus.js?mwkurg"></script>
+<script type="text/javascript" src="http://www.lbdsociety.com/sites/all/modules/contrib/panels/js/panels.js?mwkurg"></script>
+<script type="text/javascript" src="http://www.lbdsociety.com/sites/all/libraries/cufon/cufon-yui.js?mwkurg"></script>
+<script type="text/javascript" src="http://www.lbdsociety.com/sites/all/libraries/cufon-fonts/Garamond_400.font.js?mwkurg"></script>
+<script type="text/javascript" src="http://www.lbdsociety.com/sites/all/modules/contrib/cufon/js/cufon-drupal.js?mwkurg"></script>
+<script type="text/javascript" src="http://www.lbdsociety.com/sites/all/modules/contrib/compact_forms/compact_forms.js?mwkurg"></script>
+<script type="text/javascript" src="http://www.lbdsociety.com/sites/all/modules/contrib/google_analytics/googleanalytics.js?mwkurg"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-3488672-56"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.lbdsociety.com/sites/all/themes/contrib/fusion/fusion_core/js/script.js?mwkurg"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"lbds","theme_token":"4pF2v1OQrdRi88iH0VNfjOGFvL89XGsNUIVfIMgvrGQ","js":{"0":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/themes\/custom\/lbds\/js\/general.js":1,"sites\/all\/themes\/custom\/lbds\/js\/jquery.cycle.all.min.js":1,"sites\/all\/themes\/custom\/lbds\/js\/jquery.defaultText.js":1,"sites\/all\/themes\/custom\/lbds\/js\/jquery.browser.min.js":1,"sites\/all\/modules\/contrib\/nice_menus\/superfish\/js\/superfish.js":1,"sites\/all\/modules\/contrib\/nice_menus\/superfish\/js\/jquery.bgiframe.min.js":1,"sites\/all\/modules\/contrib\/nice_menus\/superfish\/js\/jquery.hoverIntent.minified.js":1,"sites\/all\/modules\/contrib\/nice_menus\/nice_menus.js":1,"sites\/all\/modules\/contrib\/panels\/js\/panels.js":1,"sites\/all\/libraries\/cufon\/cufon-yui.js":1,"sites\/all\/libraries\/cufon-fonts\/Garamond_400.font.js":1,"sites\/all\/modules\/contrib\/cufon\/js\/cufon-drupal.js":1,"sites\/all\/modules\/contrib\/compact_forms\/compact_forms.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"1":1,"sites\/all\/themes\/contrib\/fusion\/fusion_core\/js\/script.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/book\/book.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/initiation_fee\/initiation_fee.css":1,"sites\/all\/modules\/contrib\/ckeditor\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/facebookshare\/facebookshare.css":1,"sites\/all\/modules\/contrib\/nice_menus\/nice_menus.css":1,"sites\/all\/modules\/contrib\/nice_menus\/nice_menus_default.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/compact_forms\/compact_forms.css":1,"sites\/all\/themes\/contrib\/fusion\/fusion_core\/css\/fusion-style.css":1,"sites\/all\/themes\/contrib\/fusion\/fusion_core\/css\/fusion-typography.css":1,"sites\/all\/themes\/contrib\/fusion\/fusion_core\/skins\/core\/fusion-core-skins.css":1,"sites\/all\/themes\/custom\/lbds\/css\/lbds-style.css":1,"sites\/all\/themes\/custom\/lbds\/css\/core-overrides.css":1,"sites\/all\/themes\/custom\/lbds\/css\/custom.css":1,"sites\/all\/themes\/custom\/lbds\/css\/nm-overrides.css":1,"sites\/all\/themes\/custom\/lbds\/css\/custom-fck.css":1,"sites\/all\/themes\/custom\/lbds\/css\/z-index.css":1,"sites\/all\/themes\/custom\/lbds\/css\/member_profiles.css":1,"sites\/all\/themes\/contrib\/fusion\/fusion_core\/css\/grid16-960.css":1,"sites\/all\/themes\/custom\/lbds\/css\/grid16-960.css":1}},"nice_menus_options":{"delay":"800","speed":"fast"},"cufonSelectors":[{"selector":"h1.title, #block-views-how_can_i-block_1 li .how-can-i-cube .cover","options":{"enabled":1,"fontFamily":"Garamond"}}],"compactForms":{"forms":["user-login-form"],"stars":0},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body id="pid-homepage" class="html front not-logged-in no-sidebars page-homepage font-family-sans-serif-lg font-size-12 grid-type-960 grid-width-16 sidebars-split" >
+  <div id="skip-link">
+    <a href="#main-content-area">Skip to main content area</a>
+  </div>
+    <div id="screen-wrapper">
+  <div id="lbds-page-top">
+    <div id="lbds-page-top-inner">
+      <ul class="links global-links"><li class="menu-779 first"><a href="/user" title="">Login</a></li>
+<li class="menu-1480"><a href="/invite-friend" title="Invite a Friend">Invite a Friend</a></li>
+<li class="menu-1098"><a href="/blog" title="">Blog</a></li>
+<li class="menu-808 last"><a href="/contact-us" title="Contact Us">Contact Us</a></li>
+</ul>    </div>
+  </div>
+  <div id="page" class="page">
+    <div id="page-inner" class="page-inner">
+    <div id="page-header-main">
+    <div id="page-header-main-inner" class="page-inner">
+
+      
+      <!-- header-group region: width = grid_width -->
+      <div id="header-group-wrapper" class="header-group-wrapper full-width clearfix">
+	<div id="header-group" class="header-group region grid16-16">
+	  <div id="header-group-inner" class="header-group-inner inner clearfix">
+
+	    	    <div id="header-site-info" class="header-site-info clearfix">
+	      <div id="header-site-info-inner" class="header-site-info-inner gutter">
+				<div id="logo">
+		  <a href="/" title="Home"><img src="http://www.lbdsociety.com/sites/default/files/lbds_logo.png" alt="Home" /></a>
+		</div>
+					      </div><!-- /header-site-info-inner -->
+	    </div><!-- /header-site-info -->
+	    
+	    	    <div id="primary-menu" class="primary-menu block">
+<!-- navigation region -->
+<div id="navigation-wrapper" class="navigation-wrapper full-width clearfix">
+  <div id="navigation" class="region region-navigation navigation  grid16-16">
+    <div id="navigation-inner" class="navigation-inner inner">
+      <div id="block-nice_menus-1" class="block block-nice-menus first last odd">
+  <div class="gutter inner clearfix">
+            
+    <div class="content clearfix">
+      <ul class="nice-menu nice-menu-down" id="nice-menu-1"><li class="menu-763 menu-path-homepage active-trail  first   odd  "><a href="/homepage" title="sweet home" class="active">Home<br /><span>sweet home</span></a></li>
+<li class="menu-766 menu-path-node-2   even  "><a href="/about" title="mission &amp;amp; values">About LBDS<br /><span>mission &amp; values</span></a></li>
+<li class="menu-796 menu-path-node-4   odd  "><a href="/join-us" title="become a member">Join Us<br /><span>become a member</span></a></li>
+<li class="menu-799 menu-path-node-5   even  "><a href="/find-help" title="Ending abuse">Find Help<br /><span>Ending abuse</span></a></li>
+<li class="menu-802 menu-path-node-6   odd  "><a href="/news-events" title="what&#039;s going on">News &amp; Events<br /><span>what's going on</span></a></li>
+<li class="menu-1582 menu-path-my-lbd   even   last "><a href="/my-lbd" title="member center">My LBD<br /><span>member center</span></a></li>
+</ul>
+    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+    </div><!-- /navigation-inner -->
+  </div><!-- /navigation -->
+</div><!-- /navigation-wrapper -->
+</div>
+	  </div><!-- /header-group-inner -->
+	</div><!-- /header-group -->
+      </div><!-- /header-group-wrapper -->
+
+      <!-- preface-top row: width = grid_width -->
+      
+      <!-- main region: width = grid_width -->
+      <div id="main-wrapper" class="main-wrapper full-width clearfix">
+	<div id="main-outer">
+	  <div id="main" class="main region grid16-16">
+	    <div id="main-inner" class="main-inner inner clearfix">
+	      
+	      <!-- main group: width = grid_width - sidebar_first_width -->
+	      <div id="main-group" class="main-group region nested grid16-16">
+		<div id="main-group-inner" class="main-group-inner inner">
+		  			  		  <div id="main-content" class="main-content region nested">
+		    <div id="main-content-inner" class="main-content-inner inner">
+		      <!-- content group: width = grid_width - sidebar_first_width - sidebar_second_width -->
+		      <div id="content-group" class="content-group region nested grid16-16">
+			<div id="content-group-inner" class="content-group-inner inner">
+
+
+			  <div id="content-region" class="content-region region nested">
+			    <div id="content-region-inner" class="content-region-inner inner">
+			      			      			      <h1 class="title">Home</h1>
+			      			      
+			      			      <a id="main-content-area"></a>
+
+                              
+			      			      
+				  				  <div id="content-content" class="content-content">
+				    
+<!-- content region -->
+  <div id="content" class="region region-content content nested grid16-16">
+    <div id="content-inner" class="content-inner inner">
+      <div id="block-block-12" class="block block-block first  odd">
+  <div class="gutter inner clearfix">
+            
+    <div class="content clearfix">
+      <p><a href="civicrm/contribute/transact?reset=1&amp;id=3" target="_blank"><img alt="" src="/sites/default/files/donation.png" style="width: 160px; height: 91px; float: right;" /></a></p>
+    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+<div id="block-views-rotating_promo-block_1" class="block block-views   even">
+  <div class="gutter inner clearfix">
+            
+    <div class="content clearfix">
+      <div class="view view-rotating-promo view-id-rotating_promo view-display-id-block_1 view-dom-id-ad68dc5cc51e24fbf438532a56855a7b">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-field-promo-image">        <div class="field-content"><a href="http://www.lbdsociety.com/join-us"><img src="http://www.lbdsociety.com/sites/default/files/one-in-three-women.png" alt="" /></a></div>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-field-promo-image">        <div class="field-content"><a href="http://www.lbdsociety.com/LBDS_Foundation"><img src="http://www.lbdsociety.com/sites/default/files/lbds-foundation_0.png" alt="" /></a></div>  </div></li>
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
+  <div class="views-field views-field-field-promo-image">        <div class="field-content"><a href="http://www.lbdsociety.com/join-us/what-dressmaker"><img src="http://www.lbdsociety.com/sites/default/files/Dressmaker_0.png" alt="" /></a></div>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+<div id="block-lbds_util-user_welcome" class="block block-lbds-util   odd">
+  <div class="gutter inner clearfix">
+            <h2 class="title block-title">Member Login</h2>
+        
+    <div class="content clearfix">
+      <form action="/homepage?destination=homepage" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name"> <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass"> <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<input type="hidden" name="form_build_id" value="form-nSB23_Azmlv9BtXAXD254YTRncpydAiY4C1lMtGDFlk" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Log in" class="form-submit" /></div><div class="item-list"><ul><li class="first"><a href="/user/password" title="Request new password via e-mail.">Forgot password?</a></li>
+<li class="last"><p>No username? </p><span class="uppercase"><a href="/civicrm/contribute/transact?reset=1&amp;id=1" title="Create a new user account.">Sign Up</a></span></li>
+</ul></div></div></form>    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+<div id="block-views-how_can_i-block_1" class="block block-views   even">
+  <div class="gutter inner clearfix">
+            <h2 class="title block-title">How can I...</h2>
+        
+    <div class="content clearfix">
+      <div class="view view-how-can-i view-id-how_can_i view-display-id-block_1 view-dom-id-9dd5612b45b5ca935678bf3745b27c82">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first"><div class="boxgrid slidedown how-can-i-cube">
+  <div class="cover"><div class="container"><span class="field-content">Become a Member?</span></div></div>  <span class="hci-hidden">
+    <div class="field-content"><p><span class="bold-smallcaps">Become a Member?</span></p>
+<p>Help us make a difference <br />
+in women's lives.</p>
+</div>    <div class="link"><div class="field-content"><a href="http://www.lbdsociety.com/civicrm/contribute/transact?reset=1&amp;id=11">Join LBDS</a></div></div>  </span>
+</div>
+</li>
+          <li class="views-row views-row-2 views-row-even"><div class="boxgrid slidedown how-can-i-cube">
+  <div class="cover"><div class="container"><span class="field-content">Lead a Society?</span></div></div>  <span class="hci-hidden">
+    <div class="field-content"><p><span class="bold-smallcaps">Lead a Society?</span></p>
+<p>Do you have what it takes<br />
+to become a Dressmaker?</p>
+</div>    <div class="link"><div class="field-content"><a href="http://www.lbdsociety.com/join-us/what-dressmaker">Be a Dressmaker</a></div></div>  </span>
+</div>
+</li>
+          <li class="views-row views-row-3 views-row-odd"><div class="boxgrid slidedown how-can-i-cube">
+  <div class="cover"><div class="container"><span class="field-content">Invite my Friends?</span></div></div>  <span class="hci-hidden">
+    <div class="field-content"><p><span class="bold-smallcaps">Invite My Friends?</span></p>
+<p>Invite your friends <br />to join LBD Society.</p>
+</div>    <div class="link"><div class="field-content"><a href="http://www.lbdsociety.com/invite-friend">Invite a Friend</a></div></div>  </span>
+</div>
+</li>
+          <li class="views-row views-row-4 views-row-even views-row-last"><div class="boxgrid slidedown how-can-i-cube">
+  <div class="cover"><div class="container"><span class="field-content">Support Our Foundation?</span></div></div>  <span class="hci-hidden">
+    <div class="field-content"><p><span class="bold-smallcaps">Support Our Foundation?</span></p>
+<p>See how you can make a difference.</p>
+</div>    <div class="link"><div class="field-content"><a href="http://www.lbdsociety.com/LBDS_Foundation">LBDS Foundation</a></div></div>  </span>
+</div>
+</li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+<div id="block-block-4" class="block block-block homepage-bucket   odd">
+  <div class="gutter inner clearfix">
+            <h2 class="title block-title">Meet Our Founder</h2>
+        
+    <div class="content clearfix">
+      <p><slider-bold><img width="118" height="118" border="2" align="right" style="padding: 0px; margin: 0pt 5px 0pt 10px;" src="/sites/default/files/Amanda_1.jpg" alt="" /></slider-bold></p>
+<p>Amanda's personal journey has led her to <strong>L</strong>ove, <strong>B</strong>elieve, and <strong>D</strong>ream and find the hope to remove the blindfold that hid the shame of abuse.</p>
+<p><a href="/about-lbds/meet-our-founder">Learn more about Amanda</a></p>
+    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+<div id="block-block-5" class="block block-block homepage-bucket   even">
+  <div class="gutter inner clearfix">
+            <h2 class="title block-title">The Little Black Dress</h2>
+        
+    <div class="content clearfix">
+      <p><img width="118" height="118" border="2" align="left" src="/sites/default/files/littleblackdress-book.jpg" style="padding: 0px; margin: 0pt 10px 0pt 5px;" alt="" /><slider-bold></slider-bold></p>
+<p>A little book with a big message. Work through questions, take in comforting lessons, and join Mandy on her journey from fear to freedom.</p>
+<p><a target="_blank" href="http://www.amazon.com/Little-Black-Dress-Amanda-Graybill/dp/160247012X/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1276720314&amp;sr=8-1">Buy the Book on Amazon</a></p>    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+<div id="block-views-recent_blogs-block_1" class="block block-views homepage-bucket  last odd">
+  <div class="gutter inner clearfix">
+            <h2 class="title block-title">Amanda&#039;s Blog</h2>
+        
+    <div class="content clearfix">
+      <div class="view view-recent-blogs view-id-recent_blogs view-display-id-block_1 view-dom-id-fe8163b99e4e03367b54c475a50e851c">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blog/10/26/2012/little-black-dress-society-foundation%E2%84%A2-awarded-grant-steven-and-le-ann-cyr-family-ch">Little Black Dress Society Foundation™ Awarded Grant from Steven and Le Ann Cyr Family Charitable Fund </a></span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blog/10/05/2011/lbds-partners-sin-silence">LBDS Partners with Sin by Silence</a></span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blog/01/15/2011/cinderella">Cinderella</a></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <p><a href="/blog">Browse all blog posts</a></p>
+    </div>
+  
+  
+</div>    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+    </div><!-- /content-inner -->
+  </div><!-- /content -->
+				  </div><!-- /content-content -->
+				  			    </div><!-- /content-region-inner -->
+			  </div><!-- /content-region -->
+
+			</div><!-- /content-group-inner -->
+		      </div><!-- /content-group -->
+		      		    </div><!-- /main-content-inner -->
+		  </div><!-- /main-content -->
+
+		  		</div><!-- /main-group-inner -->
+	      </div><!-- /main-group -->
+	    </div><!-- /main-inner -->
+	  </div><!-- /main -->
+	</div><!-- /main-outer -->
+      </div><!-- /main-wrapper -->
+      </div>
+      </div>
+
+            
+<!-- footer region -->
+<div id="footer-wrapper" class="footer-wrapper full-width clearfix">
+  <div id="footer" class="region region-footer footer  grid16-16">
+    <div id="footer-inner" class="footer-inner inner">
+      <div id="block-block-2" class="block block-block first  odd">
+  <div class="gutter inner clearfix">
+            
+    <div class="content clearfix">
+      <p><span class="l">L</span>ittle Black Dress Society is a service organization committed to ending the abuse of women. We are a society of women working and playing together to build awareness, to raise funds, and to positively impact the lives of women touched by abuse by inspiring them to <span class="tagline">Love, Believe and Dream.</span></p>
+    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+<div id="block-views-tweets-block" class="block block-views   even">
+  <div class="gutter inner clearfix">
+            
+    <div class="content clearfix">
+      <div class="view view-tweets view-id-tweets view-display-id-block view-dom-id-8bb90dc0dbb3fc08fe81c52559e52092">
+            <div class="view-header">
+      <p><a href="http://www.twitter.com/lbdsociety" target="_blank">Follow Us</a></p>
+    </div>
+  
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first views-row-last">  
+  <span class="views-field views-field-text">        <span class="field-content">The Little Black Dress Society is a service organization committed to Educating, Empowering, Engaging, and... <a target="_blank" rel="nofollow" href="http://t.co/iTBr4kXeGp">http://t.co/iTBr4kXeGp</a></span>  </span>       &#8212;   
+  <span class="views-field views-field-created-time">        <span class="field-content"><em class="placeholder">1 year 6 months</em> ago</span>  </span></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+<div id="block-menu_block_split-1" class="block block-menu-block-split   odd">
+  <div class="gutter inner clearfix">
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="leaf menu-763 first  active-trail "><a href="/homepage" title="sweet home" class="active">Home</a></li><li class="leaf menu-766"><a href="/about" title="mission &amp;amp; values">About LBDS</a></li><li class="leaf menu-796"><a href="/join-us" title="become a member">Join Us</a></li><li class="leaf menu-799"><a href="/find-help" title="Ending abuse">Find Help</a></li><li class="leaf menu-802"><a href="/news-events" title="what&#039;s going on">News &amp; Events</a></li><li class="leaf menu-1582 last "><a href="/my-lbd" title="member center">My LBD</a></li></ul>    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+<div id="block-views-you_might_like_to-block_1" class="block block-views   even">
+  <div class="gutter inner clearfix">
+            <h2 class="title block-title">You might like to...</h2>
+        
+    <div class="content clearfix">
+      <div class="view view-you-might-like-to view-id-you_might_like_to view-display-id-block_1 view-dom-id-6a27893e6630e05a11ba3e8678d36a7e">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-field-interest-link">        <div class="field-content"><a href="http://www.facebook.com/LBDSociety">Become a fan of LBD Society on Facebook</a></div>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-field-interest-link">        <div class="field-content"><a href="http://www.lbdsociety.com/about-lbds/our-stories">Read our Members' stories</a></div>  </div></li>
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
+  <div class="views-field views-field-field-interest-link">        <div class="field-content"><a href="http://www.twitter.com/lbdsociety">Follow @LBDSociety on Twitter </a></div>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+<div id="block-block-11" class="block block-block   odd">
+  <div class="gutter inner clearfix">
+            
+    <div class="content clearfix">
+      <p><img src="/sites/all/themes/custom/lbds/i/lbds-logo-bottom2.png" alt="Copyright 2010 Little Black Dress Society" /></p>
+    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+<div id="block-menu-menu-site" class="block block-menu  last even">
+  <div class="gutter inner clearfix">
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="/privacy-policy" title="">Privacy Policy<br /><span></span></a></li>
+<li class="leaf"><a href="/member-terms-conditions" title="">Member Terms &amp; Conditions<br /><span></span></a></li>
+<li class="leaf"><a href="/website-terms-service" title="">Website Terms of Service<br /><span></span></a></li>
+<li class="last leaf"><a href="/contact-us" title="">Contact Us<br /><span></span></a></li>
+</ul>    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+    </div><!-- /footer-inner -->
+  </div><!-- /footer -->
+</div><!-- /footer-wrapper -->
+         
+    </div><!-- /page-inner -->
+  </div><!-- /page -->
+  
+</div><!--// screen-wrapper -->
+  
+<!-- page-bottom region -->
+  <div id="page-bottom" class="region region-page-bottom page-bottom">
+    <div id="page-bottom-inner" class="page-bottom-inner inner">
+      
+    <!--[if (IE 6)]>
+      <script type="text/javascript">
+        var IE6UPDATE_OPTIONS = {
+          icons_path: "http://www.lbdsociety.com/sites/all/modules/contrib/ie6update/images/",
+          message: "Internet Explorer is missing updates required to view this site. Click here to update... ",
+          url: "http://www.microsoft.com/windows/internet-explorer/default.aspx"
+        }
+      </script>
+      <script type="text/javascript" src="http://www.lbdsociety.com/sites/all/modules/contrib/ie6update/ie6update.js"></script>
+    <![endif]-->
+      </div><!-- /page-bottom-inner -->
+  </div><!-- /page-bottom -->
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+Cufon.now();
+//--><!]]>
+</script>
+</body>
+</html>
